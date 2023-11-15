@@ -8,8 +8,8 @@ body {
   }
   
   .navbar {
-    background-color: #f3f7fa;
-    padding: 30px;
+    background-color: #ffffff;
+    padding: 30px 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,11 +19,7 @@ body {
     max-width: 84px;
     border-radius: 20px;
   }
-  
-  .logo {
-    padding-left: 6rem;
-    
-  }
+ 
   
   .nav-links {
     list-style: none;
@@ -46,12 +42,13 @@ body {
   }
   
   .nav-button {
-    background-color: #e74c3c;
+    background-color: #141414;
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
+    padding: 26px 40px;
+    font-size: 1.4rem;
     cursor: pointer;
+    border-radius: 40px;
   }
   
   /* Responsive Design */

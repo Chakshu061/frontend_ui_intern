@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e5fd;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.left{
+    display: block;
+    justify-content: center;
+    padding: 4.5%;
+}
+
+.left p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.left h2{
+    font-size: 5.5rem;
+    font-weight: 800;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 5.5rem;;
+}
+
+.imagebar{
+    padding-top: 8%;
+    display: flex;
+}
+
+.imagebar img:first-child{
+    max-width: 17rem;
+    max-height: 4rem;
+    
+}
+
+.imagebar img:last-child{
+    max-width: 18rem;
+    max-height: 4rem;
+    padding-left: 40px;
+}
+
+.right{
+    padding: 3%;
+}
+
+.dot{
+    border-radius: 50%;
+    border: 3px solid #ffff;
+    border-style: dashed;
+    width: 40rem;
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: rgb(214, 204, 236);
+    width: 30rem;
+    height: 30rem;
+}
+
+.circle img{
+    position: relative;
+    right: 4.6rem;
+    top: -1rem;
+    height: 32rem;
+    width: 32rem;
+}
+
