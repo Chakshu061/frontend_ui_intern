@@ -18,11 +18,11 @@
     left: 15rem;
 }
 .pinkb{
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     position: relative;
-    right: 4.3rem;
-    top: 30rem;
+    left: 6rem;
+    top: 45rem;
 }
 .smallleaf{
     width: 4rem;
@@ -89,7 +89,7 @@
     height: 3rem;
     z-index: 1;
     position: relative;
-    bottom: 8.7rem;
+    bottom: 12rem;
     left: 20rem;
     -webkit-transform:rotate(240deg);
 
@@ -100,8 +100,8 @@
     height: 7rem;
     z-index: 1;
     position: relative;
-    right: 5rem;
-    bottom: 5rem;
+    right: 6rem;
+    bottom: 9rem;
     -webkit-transform:rotate(5deg);
 }
 
@@ -173,7 +173,7 @@
 }
 
 .right{
-    
+    padding-right: 4%;
 }
 
 .dot{

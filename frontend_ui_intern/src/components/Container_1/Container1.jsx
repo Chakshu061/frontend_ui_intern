@@ -69,9 +69,10 @@ const Container1 = () => {
            <img className ='redGhost' src={redGhost} alt="bigleaf"/>
              <img className ='ghostn3' src={ghost3} alt="bigleaf"/>
              <img className ='purpleGhost' src={purpleGhost} alt="bigleaf"/>
-             <img className ='ghostn4' src={ghost4} alt="bigleaf"/>  
+             <img className ='ghostn4' src={ghost4} alt="bigleaf"/>
+             <img className ='redblob' src={redblob} alt="bigleaf"/>  
         </div>
-        <img className ='redblob' src={redblob} alt="bigleaf"/>
+        
              
     </div>
     </>
