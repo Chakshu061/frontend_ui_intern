@@ -1,5 +1,6 @@
 import React from 'react'
 import './containereq2.css'
+import MotionWrap from '../../utils/MotionWrap'
 
 const Containereq2 = () => {
   return (
@@ -23,4 +24,4 @@ const Containereq2 = () => {
   )
 }
 
-export default Containereq2
+export default MotionWrap(Containereq2);

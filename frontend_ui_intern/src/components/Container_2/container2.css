@@ -3,6 +3,26 @@
     box-sizing: border-box;
 }
 
+.flower{
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    left: 35rem;
+    top:-19rem;
+}
+
+.leafss{
+    -webkit-transform:rotate(18deg);
+
+    width: 5rem;
+    height:5rem;
+    position: relative;
+    top: -12rem;
+    left: 15rem;
+}
+
+
+
 .Contain{
     margin-top: 5%;
     margin-left: 3%;
@@ -52,6 +72,7 @@
     height: 4rem;
     position: relative;
     top: 250px;
+    -webkit-transform:rotate(200deg);
 }
 
 .pinkblob1{
@@ -65,12 +86,11 @@
     display: flex;
 }
 
-.right2{
-    padding: 7%;
-    
-}
+
 
 .right2 h3{
     font-size: 1.8rem;
     color:rgb(70, 72, 73);
+    padding-left: 5%;
+    padding-right: 6%;
 }

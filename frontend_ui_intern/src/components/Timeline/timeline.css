@@ -67,16 +67,16 @@
     border-radius: 0.8rem;
     color: #fff;
     width: 100%;
-    min-width: 6rem;
+    max-width: 6rem;
     display: flex;
     justify-content: center;
     position: absolute;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 500;
 
     bottom: 100%;
-    margin-bottom: 0.8rem;
-    right: 60%;
+    margin-bottom: -5rem;
+    right: 83%;
 }
 
 .text2 {
@@ -85,16 +85,16 @@
     border-radius: 0.8rem;
     color: #fff;
     width: 100%;
-    min-width: 8rem;
+    max-width: 10rem;
     display: flex;
     justify-content: center;
     position: absolute;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 500;
 
     top: 100%;
-    margin-top: 0.8rem;
-    left: 50%;
+    margin-top: -5rem;
+    left: 35%;
 }
 
 .text3 {
@@ -103,16 +103,16 @@
     border-radius: 0.8rem;
     color: #fff;
     width: 100%;
-    min-width: 8rem;
+    max-width: 10rem;
     display: flex;
     justify-content: center;
     position: absolute;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     font-weight: 500;
 
     bottom: 100%;
-    margin-bottom: 0.8rem;
-    left: 50%;
+    margin-bottom: -5rem;
+    left: 62%;
 }
 
 .text4 {
@@ -121,14 +121,14 @@
     border-radius: 0.8rem;
     color: #fff;
     width: 100%;
-    min-width: 8rem;
+    max-width: 10rem;
     display: flex;
     justify-content: center;
     position: absolute;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 500;
 
     top: 100%;
-    margin-top: 0.8rem;
-    left: 50%;
+    margin-top: -5rem;
+    left: 92%;
 }

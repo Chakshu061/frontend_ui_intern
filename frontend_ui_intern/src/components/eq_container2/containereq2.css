@@ -1,6 +1,7 @@
 .Content{
     margin-left: 7%;
     margin-right: 7%;
+    margin-bottom: 7%;
     display: flex;
     gap: 5rem;
     justify-content: space-evenly;

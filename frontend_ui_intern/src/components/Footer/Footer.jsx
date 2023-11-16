@@ -4,6 +4,8 @@ import LOGO from '../../assets/LOGO.webp'
 import DownloadApp from '../../assets/DownloadApp.png'
 import mail from '../../assets/mail.png'
 import location from '../../assets/location.png'
+import { motion } from 'framer-motion'
+import MotionWrap from "../../utils/MotionWrap";
 
 const Footer = () => {
   return (
@@ -31,4 +33,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default MotionWrap(Footer)

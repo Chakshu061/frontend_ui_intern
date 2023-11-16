@@ -1,8 +1,14 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import MotionWrap from '../../utils/MotionWrap'
 import './privacy.css'
 
 const Privacy = () => {
   return (
+    <motion.div
+       initial="initial"
+      animate="animate"
+    >
     <div className='mainCont'>
         <p>We take privacy seriously</p>
         <h1>Before you get started</h1>
@@ -12,7 +18,8 @@ const Privacy = () => {
         <button className='nav-button start-but'>Start a test</button>
         <h3>Take only 5 minutes</h3>
     </div>
+    </motion.div>
   )
 }
 
-export default Privacy
+export default MotionWrap(Privacy)

@@ -1,32 +1,161 @@
-*{
-    box-sizing:border-box;
-}
-
-.main{
-    display: block;
-    padding: 7.8%;
-}
-.main .pac{
-    font-size: 1.8rem;
-    font-weight: 700;
-    color:rgb(56, 54, 54);
-}
-.ima {
+.improvement {
     display: flex;
-}
-
-.ima h1{
-    font-size: 4.3rem;
-    font-weight: 900;
-}
-
-.ima img{
-    width: 6rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+    padding: 2rem 4rem;
+    margin: 7%;
+  }
+  
+  .improvement .high {
+    width: 100%;
+    position: relative;
+  }
+  
+  .improvement .high .con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 100%;
+  }
+  
+  .improvement .high .con  h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
+  
+  .improvement .high .con p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #636363;
+    line-height: 1.6rem;
+  }
+  
+  .improvement .high .ghosty {
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    top: 3rem;
+    right: 30%;
+  }
+  
+  .improvement .high .ghosty img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 6rem;
-}
-
-.scroller{
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 5%;
-}
+    width: 6rem;
+  }
+  
+  .improvement .timel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .improvement .timel {
+    scrollbar-width: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 24rem;
+    overflow-y: scroll;
+    padding: 8rem 0rem 0 2rem;
+    width: 100%;
+  }
+  
+  .improvement .timel .cardy,
+  .improvement .timel .card_active {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+    max-width: 60%;
+    cursor: pointer;
+  }
+  
+  .improvement .timel .cardy .lime,
+  .improvement .timel .card_active .lime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 8rem;
+    width: 4px;
+  }
+  
+  .improvement .timel .cardy .lime .circled,
+  .improvement .timel .card_active .lime .circled {
+    position: absolute;
+    background-color: #b0a6d6;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    top: 0;
+  }
+  
+  .improvement .timel .cardy .con,
+  .improvement .timel .card_active .con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .lime{
+    border: 3px solid #c5bebe;
+  }
+  .improvement .timel .cardy .con h2,
+  .improvement .timel .card_active .con h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #636363;
+  }
+  
+  .improvement .timel .cardy .con p,
+  .improvement .timel .card_active .con p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #636363;
+    line-height: 1.6rem;
+  }
+  
+  .improvement .timel .card_active {
+    max-width: 60%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .improvement {
+      padding: 2rem 1.6rem;
+    }
+  
+    .improvement .header .content h1 {
+      font-size: 2rem;
+    }
+  
+    .improvement .header .content p {
+      font-size: 1rem;
+    }
+  
+    .improvement .header .ghost {
+      height: 6rem;
+      width: 6rem;
+    }
+  
+    .improvement .timel {
+      padding: 4rem 0rem 0 1rem;
+    }
+  
+    .improvement .timel .card,
+    .improvement .timel .card_active {
+      max-width: 100%;
+    }
+  }
+  

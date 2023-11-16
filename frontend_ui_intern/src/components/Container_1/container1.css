@@ -3,22 +3,141 @@
     box-sizing: border-box;
 }
 
+.bigleaf{
+    -webkit-transform:rotate(300deg);
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    top:-6rem;
+    right: 5rem;
+}
+.mulcon{
+    width: 3.5rem;
+    height: 3.5rem;
+    position: relative;
+    left: 15rem;
+}
+.pinkb{
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    right: 4.3rem;
+    top: 30rem;
+}
+.smallleaf{
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    left: 17rem;
+    top:-2rem;
+    -webkit-transform:rotate(30deg);
+}
+
+.medipink{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    left: 18rem;
+    top: -6rem;
+}
+
+.mediumpink{
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: -5rem;
+    left: 2rem;
+}
+
+.blueGhost{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    left: 23rem;
+    top: 3rem;
+    -webkit-transform:rotate(120deg);
+}
+
+.ghostn5{
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    right: 3rem;
+    top: 7rem;
+    -webkit-transform:rotate(340deg);
+}
+
+.redGhost{
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    bottom: 27rem;
+    right: 1.5rem;
+    z-index: 1;
+    
+}
+
+.ghostn5{
+    width: 7rem;
+    height: 7rem;
+    z-index: 1;
+    position: relative;
+}
+
+.purpleGhost{
+    width: 3rem;
+    height: 3rem;
+    z-index: 1;
+    position: relative;
+    bottom: 8.7rem;
+    left: 20rem;
+    -webkit-transform:rotate(240deg);
+
+}
+
+.ghostn4{
+    width: 7rem;
+    height: 7rem;
+    z-index: 1;
+    position: relative;
+    right: 5rem;
+    bottom: 5rem;
+    -webkit-transform:rotate(5deg);
+}
+
+.ghostn3{
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    left: 33rem;
+    bottom: 25rem;
+    -webkit-transform:rotate(5deg);
+}
+
+.redblob{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    top: 27rem;
+    right: 67rem;
+}
+
 .container{
     display: flex;
-    margin-left: 3%;
-    margin-right: 3%;
+    position: relative;
+    width: 100rem;
     border-radius: 40px;
     align-items: center;
     justify-content: space-between;
     background-color: #e6e5fd;
-    padding-top: 2%;
-    padding-bottom: 2%;
 }
 
 .left{
     display: block;
     justify-content: center;
     padding: 4.5%;
+    position: relative;
+    top: -1.5rem;
 }
 
 .left p{
@@ -44,8 +163,7 @@
 
 .imagebar img:first-child{
     max-width: 17rem;
-    max-height: 4rem;
-    
+    max-height: 4rem;    
 }
 
 .imagebar img:last-child{
@@ -55,7 +173,7 @@
 }
 
 .right{
-    padding: 3%;
+    
 }
 
 .dot{
