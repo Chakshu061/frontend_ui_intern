@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
         </div>
         <img className='ios' src={DownloadApp} alt='download'/>
-        <h3>© 2023 Ahead app. All right reserved
+        <h3>© 2023 Ahead app. All right reserved - Chakshu Shaktawat
         </h3>
     </div>
     </>
