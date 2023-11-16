@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer'
 import Vacancies from './components/Vacancies/Vacancies'
 import Privacy from './components/Privacy/Privacy'
 import Rate from './components/Rate/Rate'
+import Work from './components/Work/WOrk'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Containereq2/>
       <Rate />
       <Privacy/>
+      <Work/>
       <Vacancies />
       <Footer/>
   
