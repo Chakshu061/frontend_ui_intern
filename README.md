@@ -32,31 +32,40 @@ The project is organized as follows:
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/devprashantt/density-exchange
+   git clone https://github.com/Chakshu061/frontend_ui_intern
    ```
 
-2. Install the project dependencies.
+2. cd into frontend_ui_intern.
 
    ```bash
-   npm install
+   cd frontend_ui_inter
    ```
 
-3. Start the development server.
+3. Add vite app.
 
+   ```bash
+   npm create vite
+   ```
+
+4. - Select "react" as the framework.
+- Choose the default project name or customize it.
+- Select "React" for the template.
+- Use "yarn" or "npm" for package management (choose the same package manager used in the original project).
+
+5. Run the server
    ```bash
    npm run dev
    ```
 
-4. The application will be running at `http://localhost:3000`.
-
 ## Link to the site
 
-The project is deployed using Netlify - 
+The project is deployed using Netlify - https://frontend-ui-intern-chakshu.netlify.app/
 
 ## Contact Information
 
-- Email: prashantkumarsingh.work@gmail.com
-- LinkedIn: https://www.linkedin.com/in/devprashantt/
+- Email: chakshu.shaktawat2020@vitbhopal.ac.in
+- LinkedIn: https://www.linkedin.com/in/chakshu0-06/
+- Portfolio: https://chakshu-portfolio-dev.netlify.app/
 
 Thank you.
 
