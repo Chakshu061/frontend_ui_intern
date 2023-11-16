@@ -1,0 +1,32 @@
+*{
+    box-sizing:border-box;
+}
+
+.main{
+    display: block;
+    padding: 7.8%;
+}
+.main .pac{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color:rgb(56, 54, 54);
+}
+.ima {
+    display: flex;
+}
+
+.ima h1{
+    font-size: 4.3rem;
+    font-weight: 900;
+}
+
+.ima img{
+    width: 6rem;
+    height: 6rem;
+}
+
+.scroller{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+}

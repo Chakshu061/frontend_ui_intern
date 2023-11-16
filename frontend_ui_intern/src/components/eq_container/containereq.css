@@ -5,8 +5,7 @@
 .content{
     padding-top: 8%;
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
 }
 
 .content .first {
@@ -19,5 +18,5 @@
     width: 30rem;
     font-size: 1.6rem;
     font-weight: 600;
-    color: rgb(114, 109, 109);
+    color: rgb(75, 75, 75);
 }

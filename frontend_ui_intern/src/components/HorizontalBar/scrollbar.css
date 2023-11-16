@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.bar{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar h1{
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 7%;
+}
+
+.col{
+    font-size: smaller;
+    color:black;
+
+}
+
+.targe{
+    color: black;
+}
+
+.bar-loop{
+    color: black;
+}

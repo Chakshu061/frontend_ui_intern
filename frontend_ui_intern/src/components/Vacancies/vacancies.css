@@ -1,0 +1,41 @@
+.Conte{
+    margin-top: 7%;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    margin-bottom: 8%;
+}
+
+.Conte h1{
+    font-size: 4.3rem;
+    font-weight: 900;
+    padding-bottom: 4%;
+}
+
+.cards{
+    display: flex;
+    gap: 3%;
+    justify-content: space-between;
+}
+
+.fir{
+    background-color: rgb(252, 223, 186);
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+
+.fir h2{
+    padding-bottom: 3%;
+    font-size: 1.6rem;
+}
+
+.fir li{
+    padding: 2%;
+    position: relative;
+    left: -1.2rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color:rgb(68, 62, 62);
+}

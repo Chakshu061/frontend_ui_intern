@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Contain{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5d99e;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.Contain p{
+    padding-left: 4.5%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.Contain h2{
+    font-size: 4.5rem;
+    padding-left: 4.5%;
+    font-weight: 800;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 5.5rem;;
+}
+
+.imageBar{
+    display: flex;
+}
+
+.ghost1 {
+    padding-top: 4%;
+}
+
+.mul1{
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: 300px;
+}
+.leaf1{
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: 250px;
+}
+
+.pinkblob1{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 150px;
+}
+
+.cont{
+    display: flex;
+}
+
+.right2{
+    padding: 7%;
+    
+}
+
+.right2 h3{
+    font-size: 1.8rem;
+    color:rgb(70, 72, 73);
+}
