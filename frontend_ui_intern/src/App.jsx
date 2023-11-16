@@ -10,6 +10,7 @@ import Containereq2 from './components/eq_container2/Containereq2'
 import Footer from './components/Footer/Footer'
 import Vacancies from './components/Vacancies/Vacancies'
 import Privacy from './components/Privacy/Privacy'
+import Rate from './components/Rate/Rate'
 
 const App = () => {
   return (
@@ -21,9 +22,11 @@ const App = () => {
       <Container2/>
       <VerticalScroll/>
       <Containereq2/>
+      <Rate />
       <Privacy/>
       <Vacancies />
       <Footer/>
+  
     </>
   )
 }

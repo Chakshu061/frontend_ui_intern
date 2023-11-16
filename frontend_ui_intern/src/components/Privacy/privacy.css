@@ -1,6 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap');
+
+
 .mainCont{
     margin-top: 15%;
     margin-left: 8%;
     margin-right: 8%;
     margin-bottom: 15%;
+    text-align: center;
+}
+
+.mainCont p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.mainCont h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 1.8rem;
+}
+
+.mainCont h2{
+    color: #554e4e;
+    font-size: 1.7rem;
+    padding-bottom: 2.2rem;
+    line-height: 50px;
+}
+
+.mainCont span{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 800;
+    font-size: 2.6rem;
+}
+
+.mainCont h3{
+    padding-top: 2rem;
+}
+
+.mainCont .start-but{
+    
 }
